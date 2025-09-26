@@ -50,9 +50,11 @@ Diseñé una arquitectura desacoplada y orientada a servicios que combina un bac
 
 ### Estrategia de Seguridad y Hardening
 
--   **Hardening de Servidor (CIS Benchmarks):** El servidor Ubuntu se configurará siguiendo las guías del Center for Internet Security (CIS) para minimizar la superficie de ataque.
+-   **Hardening de Servidor (CIS Benchmarks):** El servidor Ubuntu se configurará siguiendo las guías del Center for Internet Security (CIS) para minimizar la superficie de ataque inicial.
 
--   **Ciclo de Pruebas de Seguridad:** Se realizará un pentest inicial a la infraestructura y una auditoría de seguridad final a la aplicación antes del lanzamiento para identificar y mitigar vulnerabilidades.
+-   **Ciclo de Auditorías de Seguridad:** Se adoptará un enfoque de pruebas de seguridad integral en dos fases clave:
+    1.  **Pentest de Infraestructura:** Una prueba de penetración inicial enfocada en la red, los contenedores y el servidor "hardenizado" para identificar y corregir vulnerabilidades a nivel de infraestructura.
+    2.  **Auditoría de Seguridad de Aplicaciones:** Una vez desarrollada la aplicación, se realizará una auditoría de seguridad exhaustiva (pentest de caja blanca/gris) sobre todos los puntos finales expuestos. Esto incluye la **API del monolito (Laravel)** y la **API del microservicio (Python)**, buscando vulnerabilidades comunes del OWASP Top 10 como Inyección SQL, Cross-Site Scripting (XSS), Autenticación Rota y Control de Acceso Inseguro.
 
 ---
 
