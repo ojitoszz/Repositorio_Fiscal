@@ -1,4 +1,4 @@
-# Caso de Estudio: Plataforma Segura de Gestión Documental y Fiscal 🏛️
+# Caso de Estudio: Plataforma Segura de Gestión Documental y Fiscal
 
 <p align="center">
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel"/>
@@ -12,7 +12,7 @@ Este repositorio documenta el diseño, la arquitectura y el desarrollo de una pl
 
 ---
 
-## 🎯 1. El Problema de Negocio
+## 1. El Problema de Negocio
 
 Las firmas de auditoría y los corporativos manejan un volumen masivo de documentos fiscales sensibles que deben ser almacenados de forma segura, ser accesibles y tener una trazabilidad impecable. Los sistemas tradicionales carecen de seguridad y flujos de trabajo eficientes.
 
@@ -20,13 +20,13 @@ Además, un reto clave es la **integración con los sistemas de identidad existe
 
 ---
 
-## 👨‍💻 2. Mi Rol: Arquitecto de Solución y Líder Técnico
+## 2. Mi Rol: Arquitecto de Solución y Líder Técnico
 
 Como arquitecto y líder técnico, mis responsabilidades abarcan todo el ciclo de vida de la solución, desde el diseño de la infraestructura hasta el despliegue seguro de la aplicación, definiendo el stack tecnológico, los patrones de diseño y las estrategias de seguridad.
 
 ---
 
-## 🏗️ 3. La Solución Propuesta: Arquitectura Segura y Orientada a Servicios
+## 3. La Solución Propuesta: Arquitectura Segura y Orientada a Servicios
 
 Diseñé una arquitectura híbrida que combina un núcleo monolítico robusto con un microservicio especializado, enfocada en la seguridad en todas sus capas (*Security by Design*).
 
@@ -46,7 +46,7 @@ Diseñé una arquitectura híbrida que combina un núcleo monolítico robusto co
 
 ---
 
-## 🛠️ 4. Stack Tecnológico
+## 4. Stack Tecnológico
 
 | Dominio | Tecnología | Propósito |
 | :--- | :--- | :--- |
@@ -59,13 +59,13 @@ Diseñé una arquitectura híbrida que combina un núcleo monolítico robusto co
 
 ---
 
-## 🗺️ 5. Hoja de Ruta del Desarrollo (Serie Tutorial)
+## 🗺️. Hoja de Ruta del Desarrollo (Serie Tutorial)
 
 Este proyecto se desarrollará de forma pública como una serie de tutoriales. Los enlaces a los videos se publicarán aquí a medida que estén disponibles.
 
 ---
 
-## 📚 6. Estrategia de Documentación
+## 6. Estrategia de Documentación
 
 La documentación del proyecto se dividirá en dos componentes clave para diferentes audiencias:
 
@@ -74,7 +74,7 @@ La documentación del proyecto se dividirá en dos componentes clave para difere
 
 ---
 
-## ✅ 7. Resultados y Logros Esperados
+## 7. Resultados y Logros Esperados
 
 Al finalizar este proyecto, se habrán alcanzado los siguientes objetivos clave, aportando un valor tangible al negocio:
 
