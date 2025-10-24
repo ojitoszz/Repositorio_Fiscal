@@ -62,7 +62,7 @@ Diseñé una arquitectura desacoplada y orientada a servicios que combina un bac
 
 | Dominio | Tecnología | Propósito |
 | :--- | :--- | :--- |
-| **Frontend** | React, Vite, Tailwind CSS | Interfaz de usuario (SPA) |
+| **Frontend** | Next.js, Vite, Tailwind CSS | Interfaz de usuario (SPA) |
 | **Backend (API Core)** | PHP, Laravel, Laravel Passport | Lógica de negocio, API RESTful (OAuth 2.0) |
 | **Backend (Microservicio)** | Python, Django | Procesamiento de datos (OCR, Búsquedas) |
 | **Bases de Datos** | PostgreSQL | Persistencia de datos relacionales |
